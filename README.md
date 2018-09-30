@@ -12,7 +12,7 @@ trigger an event and do the following:
 
 Here's what it looks like:
 
-![https://github.com/existdissolve/keyboardr/blob/master/keyboard.gif]
+![gif][https://github.com/existdissolve/keyboardr/blob/master/keyboard.gif]
 
 I started by using the pure [JSON-handler](https://github.com/SteelSeries/gamesense-sdk/blob/master/doc/api/writing-handlers-in-json.md) approach, but found it to very limited. You can achieve similar results, but it's quite slow and you don't have fine-grained control over the order/timing in which keys are illuminated.
 
