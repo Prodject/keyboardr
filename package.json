@@ -1,0 +1,25 @@
+{
+  "name": "keyboardr",
+  "version": "1.0.0",
+  "description": "Utilities for making my keyboard awesome",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "./node_modules/.bin/nodemon index.js --exec ./node_modules/.bin/babel-node"
+  },
+  "author": "existdissolve",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "slack-node": "^0.1.8",
+    "slackbotapi": "^1.3.9"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-stage-3": "^6.24.1",
+    "cross-env": "^5.1.3",
+    "nodemon": "^1.18.4"
+  }
+}
