@@ -10,6 +10,10 @@ trigger an event and do the following:
 * Cycle these 4 colors in a circle of pairs on the keypad
 * Flash the keypad "5" intermittently...it's the "S" of the Slack logo, get it? :)
 
+Here's what it looks like:
+
+https://github.com/existdissolve/keyboardr/blob/master/video.mp4
+
 I started by using the pure [JSON-handler](https://github.com/SteelSeries/gamesense-sdk/blob/master/doc/api/writing-handlers-in-json.md) approach, but found it to very limited. You can achieve similar results, but it's quite slow and you don't have fine-grained control over the order/timing in which keys are illuminated.
 
 So I moved to using the [GoLisp handlers](https://github.com/SteelSeries/gamesense-sdk/blob/master/doc/api/writing-handlers-in-golisp.md). Wow. GoLisp is just terrible. Imagine the worst parenthesis hell, and then double it. And then set it on fire.
